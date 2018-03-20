@@ -1,0 +1,45 @@
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeUniform player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+
+player forceAddUniform "U_I_FullGhillie_sard";
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_morphine";};
+player addItemToUniform "ACE_MapTools";
+player addItemToUniform "ACE_Flashlight_XL50";
+player addItemToUniform "ACE_EarPlugs";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
+for "_i" from 1 to 2 do {player addItemToUniform "R3F_15Rnd_9x19_HKUSP";};
+player addItemToUniform "20Rnd_762x51_Mag";
+player addVest "V_PlateCarrierIA2_dgtl";
+for "_i" from 1 to 8 do {player addItemToVest "ACE_20Rnd_762x51_M993_AP_Mag";};
+player addBackpack "tf_anprc155";
+player addItemToBackpack "ACE_SpottingScope";
+player addItemToBackpack "ACE_microDAGR";
+player addItemToBackpack "ACE_Kestrel4500";
+player addItemToBackpack "ACE_ATragMX";
+player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "Laserbatteries";
+player addHeadgear "H_HelmetIA";
+
+player addWeapon "arifle_SPAR_03_khk_F";
+player addPrimaryWeaponItem "muzzle_snds_B_khk_F";
+player addPrimaryWeaponItem "optic_DMS";
+player addPrimaryWeaponItem "bipod_01_F_khk";
+player addWeapon "R3F_HKUSP";
+player addHandgunItem "muzzle_snds_L";
+player addWeapon "Laserdesignator_03";
+
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ItemWatch";
+player linkItem "tf_anprc148jem";
+player linkItem "ItemcTab";
+[player,"tacs_Insignia_SpartanHelmet_Black"] call bis_fnc_setUnitInsignia;
