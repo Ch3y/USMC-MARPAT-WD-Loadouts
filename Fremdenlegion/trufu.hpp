@@ -33,5 +33,5 @@ player addWeapon "Binocular";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
-player linkItem "TFAR_anprc152";
+player linkItem "tf_anprc152";
 

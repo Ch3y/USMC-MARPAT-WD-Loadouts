@@ -38,6 +38,6 @@ player addWeapon "UK3CB_BAF_Soflam_Laserdesignator";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
-player linkItem "TFAR_anprc152";
+player linkItem "tf_anprc152";
 player linkItem "ItemGPS";
 player linkItem "NVGoggles_OPFOR";

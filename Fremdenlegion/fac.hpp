@@ -18,7 +18,7 @@ player addVest "R3F_veste_APSO_EOD_CE";
 for "_i" from 1 to 3 do {player addItemToVest "R3F_15Rnd_9x19_HKUSP";};
 for "_i" from 1 to 12 do {player addItemToVest "R3F_30Rnd_556x45_FAMAS";};
 for "_i" from 1 to 5 do {player addItemToVest "ACE_HuntIR_M203";};
-player addBackpack "TFAR_rt1523g_black";
+player addBackpack "tf_rt1523g_black";
 player addItemToBackpack "R3F_casque_spectra";
 player addItemToBackpack "ACE_HuntIR_monitor";
 for "_i" from 1 to 3 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
@@ -32,6 +32,6 @@ player addWeapon "Laserdesignator_01_khk_F";
 
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "TFAR_anprc152";
+player linkItem "tf_anprc152";
 player linkItem "ItemGPS";
 
